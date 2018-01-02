@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+body {
+  background: linear-gradient(to bottom, #232526, #414345);
+  height: 100vh; }
+  body main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100vh; }
+    body main h1 {
+      color: #3399cc;
+      text-align: center;
+      font-family: "Montserrat", sans-serif;
+      font-size: 28px; }
+    body main h2 {
+      color: #fff;
+      text-align: center;
+      font-family: "Montserrat", sans-serif;
+      font-size: 20px; }
+    body main #search {
+      color: #fff;
+      text-align: center;
+      font-family: "Montserrat", sans-serif;
+      background-color: #88aca1;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      margin: 20px 0;
+      cursor: pointer;
+      transition: 0.5s; }
+      body main #search:hover {
+        font-size: 25px; }
+    body main #countries {
+      color: #fff;
+      border-radius: 8px;
+      border: none;
+      padding: 10px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 20px;
+      transition: 0.5s; }
+    body main #country-name {
+      color: #3399cc;
+      padding: 5px;
+      border-radius: 5px;
+      border: none;
+      margin-bottom: 15px; }
+
+/*# sourceMappingURL=style.css.map */
